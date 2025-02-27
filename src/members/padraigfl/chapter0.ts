@@ -46,7 +46,7 @@ abstract class P5Node {
   getStroke = () => this.getHsla(this.stroke);
 }
 
-export function sketch0(p5: p5, options: any) {
+export function sketch0(p5: p5, options?: any) {
   const canvasSize = { width: options?.canvasWidth || 600, height: options?.canvasHeight || 600 };
 
 
